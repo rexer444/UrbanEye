@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm install --legacy-peer-deps --allow-scripts=esbuild,@google/genai,protobufjs",
   "buildCommand": "npm run build:server && vite build",
   "outputDirectory": "dist"
 }
